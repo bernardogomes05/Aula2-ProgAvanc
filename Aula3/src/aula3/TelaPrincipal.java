@@ -70,6 +70,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         String x = txtMensagem.getText();                 // Váriavel para inserir TEXTO
         // int idade = Integer.parseInt(x);               // Comando para converter tipos dados (INT, DOUBLE, BOOLEAN, FLOAT, etc) para String
+        System.out.println("Teste");
         System.out.println("Olá Mundo!");
         JOptionPane.showMessageDialog(null, // Painel de confirmação
                 x);
